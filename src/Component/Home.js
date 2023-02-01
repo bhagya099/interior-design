@@ -10,29 +10,16 @@ export default function Home() {
     setIndex(selectedIndex);
   };
   return (
-    // <Carousel activeIndex={index} onSelect={handleSelect} className="carousel">
-    //   <Carousel.Item>
-    //     <div className="d-block home_image">
-    //       <img src={IMAGES.Home_image.image_1} alt="First slide" />
-    //       <img src={IMAGES.Home_image.image_2} alt="First slide" />
-    //       <img src={IMAGES.Home_image.image_3} alt="First slide" />
-    //       <img src={IMAGES.Home_image.image_4} alt="First slide" />
-    //     </div>
-    //   </Carousel.Item>
-    // </Carousel>
-    <Carousel
-      activeIndex={index}
-      onSelect={handleSelect}
-      className="d-flex flex-column carousel"
-    >
+    <Carousel activeIndex={index} onSelect={handleSelect} className="carousel">
       <Carousel.Item>
         <img
-          className="home_image"
+          className="w-50 home_image"
           src={IMAGES.Home_image.image_1}
           alt="First slide"
         />
+
         <img
-          className="home_image"
+          className="w-50 home_image"
           src={IMAGES.Home_image.image_2}
           alt="First slide"
         />
@@ -43,6 +30,7 @@ export default function Home() {
           src={IMAGES.Home_image.image_3}
           alt="First slide"
         />
+
         <img
           className="w-50 home_image"
           src={IMAGES.Home_image.image_4}

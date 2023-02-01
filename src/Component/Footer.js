@@ -1,5 +1,5 @@
-import { ArrowRight } from "react-bootstrap-icons";
-import IMAGES from "../image/img";
+// import { ArrowRight } from "react-bootstrap-icons";
+// import IMAGES from "../image/img";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
       <Container className="mt-1 p-4">
         <Row>
           <Col>
-            <h4>SDStudio</h4>
+            <h5>Sparkle Design Studio</h5>
           </Col>
           <Col>
             <p>Follow us : Instagram</p>
@@ -17,12 +17,12 @@ const Footer = () => {
           <Col>
             <p>Our services</p>
             <ul>
-              <li>SPACE PLANNING</li>
-              <li>DESIGNING</li>
-              <li>3D RENDER IMAGES</li>
-              <li>EXECUTION</li>
-              <li>INTERIOR STYLING</li>
-              <li>SPACE DECORE</li>
+              <li>Space Planning</li>
+              <li>Designing</li>
+              <li>3D Render Images</li>
+              <li>Execution</li>
+              <li>Interior Styling</li>
+              <li>Space Decore</li>
             </ul>
           </Col>
         </Row>
