@@ -71,7 +71,7 @@
       </Carousel.Item>
 
 
-
+className="m-auto mid_body"
 
 
 

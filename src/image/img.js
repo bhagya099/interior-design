@@ -1,11 +1,11 @@
 const IMAGES = {
   Home_image: [
     // require("./Home_pics/Image_home_1.jpg"),
-    require("./Home_pics/Image_home_2.jpg"),
+    // require("./Home_pics/Image_home_2.jpg"),
     // require("./Home_pics/Image_home_3.JPG"),
-    require("./Home_pics/Image_home_4.JPG"),
+    // require("./Home_pics/Image_home_4.JPG"),
     // require("./Home_pics/image2.jpeg"),
-    require("./Home_pics/image5.jpeg"),
+    // require("./Home_pics/image5.jpeg"),
 
     require("./Home_pics/Image_home_2.jpg"),
     require("./Home_pics/Image_home_4.JPG"),
