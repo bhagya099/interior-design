@@ -18,7 +18,7 @@ body {
 
 
 
-.carousel {
+.mid_body {
   max-width: 2000px;
 
   margin: 0 auto;
@@ -32,23 +32,4 @@ body {
 
 .logo {
   width: 8em;
-}
-
-/* .clr { */
-/* background-color: #194068; */
-/* background-color: #FFFFFF; */
-/* background-color: #F9F9F9; */
-
-/* color: #fff; */
-
-
-/* .text_clr {
-  color: #fff !important;
-} */
-
-@media only screen and (max-width:768px) {
-  .footer {
-    display: flex !important;
-    flex-direction: row !important;
-  }
 }

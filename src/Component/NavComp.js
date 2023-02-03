@@ -5,7 +5,7 @@ import IMAGES from "../image/img";
 const NavComp = () => {
   return (
     <>
-      <Navbar expand="lg" className="clr mb-1">
+      <Navbar expand="lg" className="mb-1">
         <Container>
           <Navbar.Brand href="#">
             <img src={IMAGES.logo} alt="logo" className="logo" />
