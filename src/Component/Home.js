@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Carousel } from "react-bootstrap";
+import { Carousel, Image, Row, Col } from "react-bootstrap";
 import IMAGES from "../image/img";
 
 export default function Home() {
@@ -10,55 +10,44 @@ export default function Home() {
     setIndex(selectedIndex);
   };
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect} className="carousel">
-      <Carousel.Item>
-        <img
-          className="w-50 home_image"
-          src={IMAGES.Home_image.image_1}
-          alt="First slide"
-        />
+    <Row>
+      <Col>
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+          <Carousel.Item>
+            <Image
+              src={IMAGES.Home_image.image_1}
+              alt="first pic"
+              className="d-block w-100"
+              fluid
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image
+              src={IMAGES.Home_image.image_2}
+              alt="first pic"
+              className="d-block w-100"
+              fluid
+            />
+          </Carousel.Item>
 
-        <img
-          className="w-50 home_image"
-          src={IMAGES.Home_image.image_2}
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="w-50 home_image"
-          src={IMAGES.Home_image.image_3}
-          alt="First slide"
-        />
-
-        <img
-          className="w-50 home_image"
-          src={IMAGES.Home_image.image_4}
-          alt="First slide"
-        />
-      </Carousel.Item>
-      {/* <Carousel.Item>
-        <img
-          className="d-block w-100 home_image"
-          src={IMAGES.Home_image.image_3}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>Images</h3>
-          <p>Some of my work.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100 home_image"
-          src={IMAGES.Home_image.image_4}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>Images</h3>
-          <p>Some of my work.</p>
-        </Carousel.Caption>
-      </Carousel.Item> */}
-    </Carousel>
+          <Carousel.Item>
+            <Image
+              src={IMAGES.Home_image.image_3}
+              alt="first pic"
+              className="d-block w-100"
+              fluid
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image
+              src={IMAGES.Home_image.image_3}
+              alt="first pic"
+              className="d-block w-100"
+              fluid
+            />
+          </Carousel.Item>
+        </Carousel>
+      </Col>
+    </Row>
   );
 }
