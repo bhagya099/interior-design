@@ -7,22 +7,22 @@ const IMAGES = {
     // require("./Home_pics/image2.jpeg"),
     // require("./Home_pics/image5.jpeg"),
 
-    require("./Home_pics/Image_home_2.jpg"),
-    require("./Home_pics/Image_home_4.JPG"),
-    require("./Home_pics/image5.jpeg"),
+    require("./Home_pics/Image1.JPG"),
+    require("./Home_pics/Image2.JPG"),
+    require("./Home_pics/Image3.JPG"),
   ],
   logo: require("./logo.jpg"),
   Project_pics: [
-    require("./Home_pics/image2.jpeg"),
+    require("./Home_pics/Image5.JPG"),
     require("./Project_pics/Image_4.jpg"),
     require("./Project_pics/Image_3.jpg"),
 
-    require("./Home_pics/Image_home_3.JPG"),
+    require("./Home_pics/Image20.jpeg"),
     require("./Project_pics/Image_11.jpg"),
-    require("./Home_pics/Image_home_1.jpg"),
+    require("./Home_pics/Image20.jpeg"),
 
     require("./Project_pics/Image_29.jpg"),
-    require("./Home_pics/image9.jpeg"),
+    require("./Home_pics/Image20.jpeg"),
     require("./Project_pics/Image_5.jpg"),
 
     require("./Project_pics/Image_7.jpg"),
