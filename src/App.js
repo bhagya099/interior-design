@@ -4,7 +4,6 @@ import ContactUs from "./Component/ContactUS";
 import Project from "./Component/Project";
 import Home from "./Component/Home";
 import Footer from "./Component/Footer";
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
