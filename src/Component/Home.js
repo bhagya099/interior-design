@@ -19,7 +19,7 @@ export default function Home() {
     >
       {IMAGES.Home_image.map((slide, i) => (
         <SwiperSlide key={i}>
-          <img src={slide} alt="home-pics" className="img" />
+          <img src={slide} alt="Home-pics" className="img" />
         </SwiperSlide>
       ))}
     </Swiper>
