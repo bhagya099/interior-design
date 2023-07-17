@@ -1,13 +1,18 @@
 // import { ArrowRight } from "react-bootstrap-icons";
 // import IMAGES from "../image/img";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <Container fluid className="mt-1 p-4 text-center footer-background">
+    <Container
+      fluid
+      className="me-auto p-4 text-center background-color-footer text-color"
+    >
       <Row>
         <Col md={{ span: 3 }}>
           <h5>Sparkle Design Studio</h5>
+          <Link to="/interior-design/contact">Contact Us</Link>
         </Col>
         <Col md={{ span: 3 }}>
           <p>Follow us : Instagram</p>
@@ -15,7 +20,7 @@ const Footer = () => {
 
         <Col md={{ span: 6 }}>
           <p>Our services</p>
-          <ul>
+          <ul className="list-unstyled">
             <li>Space Planning</li>
             <li>Designing</li>
             <li>3D Render Images</li>

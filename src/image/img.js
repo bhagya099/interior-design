@@ -1,15 +1,16 @@
 const IMAGES = {
   Home_image: [
-    // require("./Home_pics/Image_home_1.jpg"),
-    // require("./Home_pics/Image_home_2.jpg"),
-    // require("./Home_pics/Image_home_3.JPG"),
-    // require("./Home_pics/Image_home_4.JPG"),
-    // require("./Home_pics/image2.jpeg"),
-    // require("./Home_pics/image5.jpeg"),
-
     require("./Home_pics/Image1.JPG"),
     require("./Home_pics/Image2.JPG"),
     require("./Home_pics/Image3.JPG"),
+    require("./Home_pics/Image20.jpeg"),
+    require("./Home_pics/Image23.jpeg"),
+    require("./Home_pics/Image12.JPG"),
+    require("./Home_pics/Image10.JPG"),
+    require("./Home_pics/Image8.JPG"),
+    require("./Home_pics/Image1.JPG"),
+    require("./Home_pics/Image4.JPG"),
+    require("./Home_pics/Image5.JPG"),
   ],
   logo: require("./logo.jpg"),
   Project_pics: [

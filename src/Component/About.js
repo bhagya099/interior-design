@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 const About = () => {
   return (
-    <Container className="text-color">
+    <Container className="background-color">
       <Row>
         <Col xs={12} md={6} className="p-3 mt-4">
           <h5>
