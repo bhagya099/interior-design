@@ -9,8 +9,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   min-height: 100vh;
-  display: flex !important;
-  flex-direction: column !important;
 }
 
 html {
@@ -43,4 +41,8 @@ html {
 
 .footer {
   margin: auto;
+}
+
+.img {
+  width: 100%;
 }

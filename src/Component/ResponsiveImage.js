@@ -7,7 +7,7 @@ const ResponsiveImage = ({ images, alt, width, height }) => (
       {images.map((image, index) => (
         <Col className="p-1" xs={12} md={4}>
           <Image
-            key={index}
+            key={index + 1}
             src={image}
             alt={alt}
             width={width}
