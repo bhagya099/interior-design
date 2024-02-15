@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/interior-design/static/css/main.1eff7696.css",
-    "main.js": "/interior-design/static/js/main.25620506.js",
+    "main.css": "/interior-design/static/css/main.90fbf1f4.css",
+    "main.js": "/interior-design/static/js/main.b1894d72.js",
     "static/media/Image10.JPG": "/interior-design/static/media/Image10.abf319005326c87e7b43.JPG",
     "static/media/Image_20.jpg": "/interior-design/static/media/Image_20.f7e8cecd5452e625f008.jpg",
     "static/media/Image20.jpeg": "/interior-design/static/media/Image20.e70361190b292425fe44.jpeg",
@@ -12,9 +12,7 @@
     "static/media/Image_29.jpg": "/interior-design/static/media/Image_29.1a9d5c52e575d0ff237a.jpg",
     "static/media/Image_5.jpg": "/interior-design/static/media/Image_5.0e613a3836edec7e601e.jpg",
     "static/media/Image5.JPG": "/interior-design/static/media/Image5.8240ddf4924cd96fa028.JPG",
-    "static/media/Image4.JPG": "/interior-design/static/media/Image4.94d3f2bce10154e70c2c.JPG",
     "static/media/Image8.JPG": "/interior-design/static/media/Image8.da0e98e7a93b24185484.JPG",
-    "static/media/Image3.JPG": "/interior-design/static/media/Image3.fdbeb5f46f1c3aed2337.JPG",
     "static/media/Image12.JPG": "/interior-design/static/media/Image12.3224288a62fe368ed725.JPG",
     "static/media/Image_19.jpg": "/interior-design/static/media/Image_19.a66d86e31d9a5e8cc423.jpg",
     "static/media/Image_21.jpg": "/interior-design/static/media/Image_21.b59ea662141d8bfc241a.jpg",
@@ -42,11 +40,11 @@
     "static/media/Soniya_pic.JPG": "/interior-design/static/media/Soniya_pic.2e1b00f1ed2fde261d55.JPG",
     "static/media/logo.jpg": "/interior-design/static/media/logo.0c94a064b2ec97997b4c.jpg",
     "index.html": "/interior-design/index.html",
-    "main.1eff7696.css.map": "/interior-design/static/css/main.1eff7696.css.map",
-    "main.25620506.js.map": "/interior-design/static/js/main.25620506.js.map"
+    "main.90fbf1f4.css.map": "/interior-design/static/css/main.90fbf1f4.css.map",
+    "main.b1894d72.js.map": "/interior-design/static/js/main.b1894d72.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eff7696.css",
-    "static/js/main.25620506.js"
+    "static/css/main.90fbf1f4.css",
+    "static/js/main.b1894d72.js"
   ]
 }
